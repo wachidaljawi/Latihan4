@@ -125,7 +125,6 @@ a:active {
 
 }
 
-
 #company .detail {
     background-color: rgba(255, 68, 0, 0.932);
     color: white;
@@ -133,4 +132,30 @@ a:active {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+#company .detail:hover,
+.detail:active {
+    background-color: blue;
+}
+
+#project {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+#project .isiproject {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
