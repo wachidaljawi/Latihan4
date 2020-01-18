@@ -159,3 +159,17 @@ a:active {
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
+#customer {
+    background-color: rgb(233, 230, 230);
+    height: 200px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#customer .isicustomer {
+    float: left;
+    width: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
