@@ -70,18 +70,46 @@ a:active {
 }
 
 #home {
-    background-color: darkgray;
+    background-color: rgb(233, 230, 230);
     padding-top: 20px;
+    height: 900px;
 }
 
 #home .home1 .isihome {
-    text-align: center
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #home .home1 .gmb1 {
     display: block;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
-    height: 250px;
+    /*   width: 1000px; */
+    /* height: 250px; */
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+#home .box .isibox {
+    background-color: #fff;
+    float: left;
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    box-shadow: 2px 1px rgba black(0.05);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#home .box .isibox .link:hover {
+    color: blue;
+}
+
+#home .box .isibox .link {
+    color: black;
 }
