@@ -186,8 +186,8 @@ a:active {
     background-size: auto;
     position: relative;
     background-attachment: fixed;
-    margin-bottom: 10px;
     padding-top: 20px;
+    padding-bottom: 20px;
     height: 1350px;
 }
 
@@ -264,4 +264,24 @@ input[type=submit]:hover {
     height: 100px;
     width: 620px;
 
+}
+
+#Footer {
+    background-color: darkgrey;
+    padding-top: 30px;
+    height: 50px;
+}
+
+#Footer .copyright {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    float: left;
+    margin-left: 50px;
+}
+
+#Footer .by {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    float: right;
+    margin-right: 50px;
 }
