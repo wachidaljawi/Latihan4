@@ -118,6 +118,7 @@ a:active {
     background-image: url(../img/gedung.jpg);
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
     padding: 120px;
     font-size: 32px;
     text-align: center;
@@ -178,4 +179,89 @@ a:active {
     padding: 0 150px;
     height: 100px;
     width: 150;
+}
+
+#Contactus {
+    background-image: url(../img/kontruksi1.jpg);
+    background-size: auto;
+    position: relative;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    height: 1350px;
+}
+
+#Contactus .isicontactus h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#Contactus .isicontactus p {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#Contactus .isicontactus .form {
+    background-color: darkblue;
+    padding: 50px;
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+
+    font-size: 16px;
+    resize: none;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+input[type=submit]:hover {
+    background-color: lightgreen;
+}
+
+#Contactus .maps {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 100px;
+    width: 620px;
+
 }
